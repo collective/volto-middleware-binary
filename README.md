@@ -1,6 +1,6 @@
 # Volto Middleware Binary (volto-middleware-binary)
 
-A new add-on for Volto that improves upon the standard binary middleware by offering superior performance and lower memory consumption. For more information and benchmarks, please refer to the original pull request: [plone/volto#5299](https://github.com/plone/volto/pull/5299).
+A new add-on for Volto that improves upon the standard binary middleware by offering superior performance and lower memory consumption. For more information and benchmarks, please refer to the original pull request: [plone/volto#5299](https://github.com/plone/volto/pull/5299) and [plone/volto#6317](https://github.com/plone/volto/pull/6317).
 
 [![npm](https://img.shields.io/npm/v/volto-middleware-binary)](https://www.npmjs.com/package/volto-middleware-binary)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://collective.github.io/volto-middleware-binary/)
