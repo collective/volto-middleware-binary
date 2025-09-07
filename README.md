@@ -9,7 +9,10 @@ A new add-on for Volto that improves upon the standard binary middleware by offe
 
 ## Features
 
-* 
+*   **Better Performance**: Offers superior performance and lower memory consumption compared to the default middleware.
+*   **Full Header Proxying**: Seamlessly proxies all request and response headers between the client and the Plone backend.
+*   **Proxy-Aware Headers**: Implements standard `X-Forwarded-For` and `X-Forwarded-Host` headers, ensuring the backend is aware of the original request's context.
+*   **Query String Forwarding**: Correctly forwards any query strings from the original request to the backend.
 
 ## Installation
 

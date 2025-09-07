@@ -21,9 +21,8 @@ const proxyMiddlewareFn = proxy(getHost, {
   proxyReqOptDecorator: function (proxyReqOpts, req) {
     const authToken = req.universalCookies.get('auth_token');
     if (authToken) {
-        proxyReqOpts.headers['Authorization'] = `Bearer ${authToken}`;
+      proxyReqOpts.headers['Authorization'] = `Bearer ${authToken}`;
     }
-    console.log('proxyReqOpts', JSON.stringify(proxyReqOpts, null,2));
     return proxyReqOpts;
   },
   skipToNextHandlerFilter: function (proxyRes) {

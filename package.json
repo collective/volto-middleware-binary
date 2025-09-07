@@ -35,8 +35,7 @@
   "dependencies": {
     "@plone/volto": "workspace:*",
     "@plone/registry": "workspace:*",
-    "volto-middleware-binary": "workspace:*",
-    "express-http-proxy":"^2.1.1"
+    "volto-middleware-binary": "workspace:*"
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0"
