@@ -7,3 +7,9 @@
 -->
 
 <!-- towncrier release notes start -->
+
+## 1.0.0-alpha.1 (2025-09-07)
+
+### Feature
+
+- first release [#1](https://github.com/collective/volto-middleware-binary/issue/1)
