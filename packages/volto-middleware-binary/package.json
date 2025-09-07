@@ -27,7 +27,7 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "dependencies": {
-    "express-http-proxy":"^2.1.1"
+    "express-http-proxy": "^2.1.1"
   },
   "peerDependencies": {
     "react": "18.2.0",
