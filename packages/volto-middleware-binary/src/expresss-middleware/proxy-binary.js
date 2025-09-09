@@ -54,8 +54,8 @@ export default function proxyMiddleware() {
     [
       '**/@@download/*',
       '**/@@display-file/*',
-      '**/@images/*',
-      '**/@portrait/*',
+      '**/@@images/*',
+      '**/@@portrait/*',
       '**/@@site-logo/*',
     ],
     proxyMiddlewareFn,
