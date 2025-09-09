@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.2 (2025-09-09)
+
+### Bugfix
+
+- fix @@images route (typo) [mamico] [#2](https://github.com/collective/volto-middleware-binary/issue/2)
+
 ## 1.0.0-alpha.1 (2025-09-07)
 
 ### Feature
