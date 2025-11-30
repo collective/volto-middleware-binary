@@ -1554,8 +1554,8 @@ importers:
   packages/volto-middleware-binary:
     dependencies:
       express-http-proxy:
-        specifier: ^2.1.1
-        version: 2.1.1
+        specifier: ^2.1.2
+        version: 2.1.2
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -7730,8 +7730,8 @@ packages:
   exponential-backoff@3.1.1:
     resolution: {integrity: sha512-dX7e/LHVJ6W3DE1MHWi9S1EYzDESENfLrYohG2G++ovZrYOkm4Knwa0mc1cn84xJOR4KEU0WSchhLbd0UklbHw==}
 
-  express-http-proxy@2.1.1:
-    resolution: {integrity: sha512-4aRQRqDQU7qNPV5av0/hLcyc0guB9UP71nCYrQEYml7YphTo8tmWf3nDZWdTJMMjFikyz9xKXaURor7Chygdwg==}
+  express-http-proxy@2.1.2:
+    resolution: {integrity: sha512-FXcAcs7Nf/hF73Mzh0WDWPwaOlsEUL/fCHW3L4wU6DH79dypsaxmbnAildCLniFs7HQuuvoiR6bjNVUvGuTb5g==}
     engines: {node: '>=6.0.0'}
 
   express@4.19.2:
@@ -22678,7 +22678,7 @@ snapshots:
 
   exponential-backoff@3.1.1: {}
 
-  express-http-proxy@2.1.1:
+  express-http-proxy@2.1.2:
     dependencies:
       debug: 3.2.7(supports-color@8.1.1)
       es6-promise: 4.2.8

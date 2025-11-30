@@ -1,8 +1,8 @@
+import config from '@plone/volto/registry';
 import express from 'express';
 import proxy from 'express-http-proxy';
-import config from '@plone/volto/registry';
 
-const getHost = () => {
+const getHost = (req) => {
   if (config.settings.internalApiPath && __SERVER__) {
     return config.settings.internalApiPath;
   } else if (__DEVELOPMENT__ && config.settings.devProxyToApiPath) {
@@ -16,7 +16,7 @@ const proxyMiddlewareFn = proxy(getHost, {
   memoizeHost: !__DEVELOPMENT__,
   proxyReqPathResolver: function (req) {
     const backend_path = new URL(getHost()).pathname.trimEnd('/');
-    return `${backend_path}${req.url}`;
+    return backend_path === '/' ? req.url : `${backend_path}${req.url}`;
   },
   proxyReqOptDecorator: function (proxyReqOpts, req) {
     const authToken = req.universalCookies.get('auth_token');
