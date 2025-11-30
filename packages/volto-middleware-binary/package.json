@@ -1,6 +1,6 @@
 {
   "name": "volto-middleware-binary",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "A new add-on for Volto",
   "main": "src/index.js",
   "license": "MIT",
