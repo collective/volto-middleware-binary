@@ -69,12 +69,6 @@ Add `volto-middleware-binary` to your `volto.config.js`:
 const addons = ['volto-middleware-binary'];
 ```
 
-If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
-
-```javascript
-const theme = 'volto-middleware-binary';
-```
-
 ## Test installation
 
 Visit http://localhost:3000/ in a browser, login, and check the awesome new features.
